@@ -18,7 +18,6 @@ class SpringCourier
 
     //Array representing table in Page 8 of XBS API manual
     //2.1.1 Label character limit and service validations
-    //
     //Instead of hardcoding the service configurations here, it would be more maintainable
     //and scalable to fetch this data from a database. The data can then be cached in memory
     //(e.g., using Redis or Memcached) to improve performance and reduce database load.
