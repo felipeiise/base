@@ -1,0 +1,16 @@
+{
+    "name": "felipeiise/base",
+    "description": "Additional tests for the task",
+    "authors": [
+        {
+            "name": "felipeiise",
+            "email": "felipeiisemendes@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    },
+  "require": {
+    "ext-curl": "*"
+  }
+}
