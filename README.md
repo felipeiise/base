@@ -39,7 +39,7 @@ cd ~/task/felipeiise/base
 php -S localhost:8000
 ```
 
-Navigate to [http://localhost:8000](localhost:8000)
+Navigate to [http://localhost:8000](http://localhost:8000)
 
 Run unit tests:
 
