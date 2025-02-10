@@ -32,6 +32,13 @@ sudo mv composer.phar /usr/bin/composer
 composer -V
 ```
 
+Install project dependencies:
+
+```bash
+cd ~/task/felipeiise/base
+composer install
+```
+
 Run the project:
 
 ```php
@@ -44,8 +51,7 @@ Navigate to [http://localhost:8000](http://localhost:8000)
 Run unit tests:
 
 ```bash
-cd ~/base
-composer require --dev phpunit/phpunit
+cd ~/task/felipeiise/base
 vendor/bin/phpunit tests
 ```
 
